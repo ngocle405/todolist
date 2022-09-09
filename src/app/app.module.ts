@@ -47,13 +47,16 @@ import { TreeModule } from 'primeng/tree';
 import { TreeTableModule } from 'primeng/treetable';
 import { ChipsModule } from 'primeng/chips';
 import { EditorModule } from 'primeng/editor';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
+    BrowserAnimationsModule,
+    BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
@@ -62,7 +65,6 @@ import { AppComponent } from './app.component';
     FormsModule,
     ReactiveFormsModule,
     //
-    //  DynamicModule,
     ButtonModule,
     CheckboxModule,
     InputTextModule,

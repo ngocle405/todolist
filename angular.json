@@ -103,5 +103,7 @@
       "style": "scss"
     }
   },
-  "defaultProject": "todoList"
+  "cli": {
+    "analytics": "c2827835-fafb-4ce2-bb30-20e017389bc6"
+  }
 }
